@@ -33,10 +33,10 @@ function actionApplyer(startInt, arrayFcns){
   if (arrayFcns.length === 0){
     return startInt;
   } else {
-    let result;
+    
     for (let i = 0; i < arrayFcns.length; i++){
       console.log(arrayFcns[i].toString());
-      result = arrayFcns[i](startInt);
+      startInt = arrayFcns[i](startInt);
     }
     return result;
   }
