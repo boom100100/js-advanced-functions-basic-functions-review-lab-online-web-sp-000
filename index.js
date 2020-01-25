@@ -36,7 +36,7 @@ function actionApplyer(startInt, arrayFcns){
     
     for (let i = 0; i < arrayFcns.length; i++){
       console.log(arrayFcns[i].toString());
-      arrayFcns[i](startInt);
+      startInt = arrayFcns[i](startInt);
     }
     return startInt;
   }
