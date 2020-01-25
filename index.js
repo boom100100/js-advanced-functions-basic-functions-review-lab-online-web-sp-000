@@ -35,7 +35,7 @@ function actionApplyer(startInt, arrayFcns){
   } else {
     let result;
     for (let i = 0; i < arrayFcns.count; i++){
-      result = [i]](startInt);
+      result = arrayFcns[i](startInt);
     }
     return result;
   }
