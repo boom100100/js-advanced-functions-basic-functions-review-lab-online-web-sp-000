@@ -38,7 +38,7 @@ function actionApplyer(startInt, arrayFcns){
       console.log(arrayFcns[i].toString());
       startInt = arrayFcns[i](startInt);
     }
-    return result;
+    return startInt;
   }
   
 }
