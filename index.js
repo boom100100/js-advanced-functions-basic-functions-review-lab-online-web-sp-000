@@ -32,6 +32,12 @@ function wrapAdjective(symbol){
 function actionApplyer(startInt, arrayFcns){
   if (arrayFcns.count === 0){
     return startInt;
-  } else {}
+  } else {
+    let result;
+    for (let fcn of arrayFcns){
+      result = fcn(startInt);
+    }
+    return result;
+  }
   
 }
