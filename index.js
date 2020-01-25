@@ -34,8 +34,8 @@ function actionApplyer(startInt, arrayFcns){
     return startInt;
   } else {
     let result;
-    for (let fcn of arrayFcns){
-      result = fcn(startInt);
+    for (let i = 0; i < arrayFcns.count; i++){
+      result = [i]](startInt);
     }
     return result;
   }
