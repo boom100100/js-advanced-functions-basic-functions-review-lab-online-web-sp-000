@@ -20,7 +20,7 @@ function mondayWork(doSomething = "go to the office"){
 
 function wrapAdjective(symbol){
   
-  if (symbol === '*'){
+  if (symbol === '\*'){
     return (function(adj){return `You are *${adj}*!`;})
   } else if (symbol === '||') {
     return (function(adj){return `You are ||${adj}||!`;})
