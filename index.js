@@ -30,7 +30,7 @@ function wrapAdjective(symbol){
 
 
 function actionApplyer(startInt, arrayFcns){
-  if (arrayFcns.count === 0){
+  if (arrayFcns.length === 0){
     return startInt;
   } else {
     let result;
